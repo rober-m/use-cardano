@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.1.0",
   "engines": {
-    "node": "^16.15.0  || ^17.0.0 || ^18.0.0"
+    "node": "^16.13.0  || ^17.0.0 || ^18.0.0"
   },
   "description": "A react context, hook, and set of components that makes interacting with the Cardano blockchain easy",
   "main": "dist/index.js",
@@ -31,7 +31,7 @@
     "dev": "concurrently \"pnpm dev:package\" \"pnpm dev:example\" \"node scripts/open.mjs\""
   },
   "peerDependencies": {
-    "lucid-cardano": "0.8.3",
+    "lucid-cardano": "0.10.1",
     "react": "^16.0.0 || ^17.0.0 || ^18.2.0"
   },
   "devDependencies": {
